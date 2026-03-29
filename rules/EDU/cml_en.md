@@ -1,106 +1,178 @@
-[日本語](./cml_ja.md) | [English](./cml_en.md)
+[日本語](./2026_CML_Rule_ja.md) | [English](./2026_CML_Rule_en.md)
 
-# Carry My Luggage (CML)
-Eventhough most of the rules are based on the RoboCup World competition Rulebook, It will be discussed about some local rules for the RCJ2025 in the TLM.
-- [Playground Rules 2024](https://drive.google.com/file/d/1CIMQquIntiJZNT4Eg_rq3Nol-29BPBKL/view?usp=drive_link)
-- [@Home 2022 Rules](https://drive.google.com/file/d/1yUZBFk4zBO_akltSCd_zbdAvzK5aLwzn/view?usp=drive_link).
+# Carry My Luggage (CML) — BRG 2026
 
-## Reference Video
-[Watch the reference video](https://youtu.be/dzyJ1dHTulc)
+Reference video: https://youtu.be/dzyJ1dHTulc
+- https://youtu.be/l17cDwM82ec?si=1r7tf2h-VeWiYSx9 (Last year's CML video)
+- https://www.youtube.com/watch?v=6OFh1U-yoo4 (example of collision)
+- https://www.youtube.com/watch?v=s2g95Y9Me3c (example of non-collision)
 
-> **Note**
-> The reference video is not perfect. Rules may vary by year, so please use it only as a reference.
-> If you have any concerns or points for discussion, please post them in the GitHub [Issues](https://github.com/RoboCupAtHomeJP/Rule2023/issues).
+> [!NOTE]
+> This video is provided only as a reference from a previous event.
+> Please note that the rules for this year are different.
 
 ## Main Goal
-This task involves a robot assisting with carrying luggage to a car parked outside. After picking up the luggage (paper bags), the robot follows the operator from a known to an unknown environment, assists in transporting the luggage, and then autonomously returns to the starting point (known environment).
+
+In this task, the robot is expected to assist the operator by carrying luggage to a parked car outside the arena. The robot must understand the operator’s instruction indicating which bag to take (left or right), follow the operator to the designated outdoor car location, and then autonomously return to the start position inside the arena.
 
 ## Focus
-This task focuses on pointing recognition, manipulation, mapping and navigation in known and unknown environments, following humans, voice interaction, and task planning.
+
+This task focuses on pointing recognition, manipulation, mapping and navigation in both known and unknown environments, person following, and task planning.
+
+- Person following
+- Indoor/outdoor navigation (known / semi-known environments)
+- Passing through narrow spaces
+- Obstacle avoidance
+- Understanding instructions (left/right, start/stop following, arrival notification)
 
 ## Setup
-- **Location**: A home-like arena environment is used. Competitions are conducted both inside and outside the arena. The inside of the arena can be mapped in advance (known environment).
-- **Start Location**: The robot starts from the center of the `Dining Room`, facing the center between two chairs.
-- **Luggage (Paper Bags)**: Two paper bags are placed near the operator (within 2 meters and visible to the robot).
-  - **Size**: TBD
-  - **Placement**: Handled by OC and TC.
-- **Operator**: The operator stands in front of the robot and points to the paper bag to be used during the competition. The operator can be selected from your own team (at your discretion).
 
-> **Warning**
-> Rules are subject to change. Any changes will be shared with everyone.
+- **Location**: A competition arena simulating a home environment will be used. The task takes place both inside and outside the arena. The `inside of the arena` may be mapped in advance and is treated as a `known environment`.
+- **Start location**: The robot starts from a designated mark inside the arena.
+- **Luggage (paper bags)**: Two paper bags are placed on the floor near the operator, one on the left and one on the right. The TC will place them.
+  - **Size**: To be determined at the TLM.
+- **Obstacles**: The following obstacles will be placed along the outdoor route. Their types and placement locations will be shared in advance at the TLM. At present, the layout has not yet been published, so the exact placement locations have not been finalized.
+  - Chairs (hard-to-see objects)
+  - Small items
+  - Barriers
+- **Operator**: One operator. Each team may choose any one member of their team.
+- **Crowd**: Approximately two people will be placed outdoors.
+- **Car location**: No actual car will be used. A fixed point designated by the organizers will be treated as the “car location”.
+
+> [!WARNING]
+> The rules may be subject to change. Any changes will be shared with all teams.
 
 ## Scenario
 
 ### Start Phase
-1. **Competition Time**: The competition lasts for 7 minutes.
-2. **Setup**: The referee instructs the team to move the robot to the start position.
-3. **Start**: The referee signals the start of the competition and starts the timer. Simultaneously, the team completes any last-minute setups (like pressing the start button) and exits the area. Do not perform complex setup procedures such as pressing multiple buttons.
-4. **Pointing**: At the start signal, the operator points to one of the two designated paper bags.
-5. **Grasping**: The robot recognizes and grasps the bag pointed out by the operator.
+
+1. **Competition time**: The time limit is **7 minutes**.
+1. **Setup time**: Teams are given **5 minutes** for setup before the run.
+1. **Placement**: The referee instructs the team to move the robot to the start position.
+1. **Start**: The referee gives the start signal and starts the timer. At the same time, the team completes the final simple setup (such as pressing the start button) and leaves the area.
+1. **Pointing**: At the start signal, the operator points to the pre-designated bag among the two paper bags.
+1. **Confirmation**: The robot detects the operator, recognizes the indicated bag, and provides a confirmation response either verbally or on a screen.
+1. **Grasping**: The robot grasps the designated bag (this may be skipped; Deus ex Machina is allowed).
 
 ### Follow-Me Phase
-1. **Transport Start**: Once the robot has grasped the paper bag and is ready to follow, it informs the operator.
-2. **Walking**: The operator then begins walking from the known environment to the unknown environment. The goal location outside the arena is fixed.
-3. **Follow-Me**: The robot follows the walking operator and keeps track. When the operator reaches the goal, they inform the robot.
 
-> **Warning**
-> Once the operator begins walking, they must not turn towards the robot or stop walking.
+1. **Start following**: Once the robot is ready to follow, the operator starts walking from the known environment toward the unknown environment. Gesture-based initiation of following is also allowed.
+1. **Walking**: The operator walks naturally at a slow pace without turning back. The robot follows at a safe speed.
+1. **Follow me**: The robot follows the operator and moves from the indoor known environment to the outdoor unknown environment.
+1. **Arrival at the car location**: When the operator reaches the designated car location, the operator verbally informs the robot of the arrival. The robot must recognize this speech input.
+1. **Handover**: The robot hands the bag to the operator (not applicable if grasping was skipped).
+
+> [!WARNING]
+> Once the operator starts walking, they must not turn back toward the robot or stop walking.
 
 ### Navigation Phase
-1. **Handover**: Once the operator and robot reach the goal, the operator takes the bag from the robot and thanks it.
-2. **Navigation**: The robot autonomously travels from the unknown environment back to the starting point in the known environment, navigating around various obstacles. Each team can decide whether to take on these challenges (additional points are awarded for each obstacle avoided). The types of obstacles include:
-   - Static crowds of two people
-   - Small objects on the ground (like blocks)
-   - Difficult-to-see 3D objects (like chairs or glasses)
-   - Retractable barriers (like guide poles)
-3. **Goal**: When the robot returns to the starting point, the task is completed.
+
+1. **Return declaration**: The robot makes a verbal return declaration, such as “I’m going back.”
+1. **Navigation**: The robot autonomously navigates from the unknown environment back to the `start position` in the known environment. During the return, it must avoid any obstacles placed along the route. Whether to attempt obstacle avoidance is left to each team’s discretion (a bonus is awarded for each obstacle successfully avoided; there is no penalty for skipping them).
+1. **Goal**: The task is completed when the robot returns to the `start position` (within a radius of 1 m).
+
+## Manipulation Policy (for BRG)
+
+- Grasping may be **skipped**. If skipped, the corresponding item receives 0 points, but no penalty is applied.
+- If the robot is able to lift the bag from the floor in any manner, bonus points will be awarded.
+- A grasping failure alone does not result in immediate disqualification, unless it involves a safety violation.
+- The robot may verbally ask the operator to move the bag away in order to prevent navigation failure caused by the bag. In that case, the robot must clearly inform the operator that it is requesting the bag to be moved. Moving the bag away is treated as a penalty.
+- If grasping is difficult, Deus ex Machina (human assistance) may be used.
 
 ## Local Rules
-1. Competition time is 7 minutes.
-2. Three referees are needed, one from each team that has completed their competition.
-3. Bonus Task: Points are not awarded if the foot of a retractable barrier is stepped on.
-4. The "starting point" is within a 50cm radius from a marked spot on the ground (effective if even partially within the range).
-5. "Re-entry into the arena" is valid if the entire robot re-enters the arena.
-6. Do not place bags vertically.
-7. Skipping of bag grasping and obstacle avoidance is permitted.
 
-## Scoring
+1. The competition time is **7 minutes**.
+1. The setup time is **5 minutes**.
+1. **One restart** is allowed, and the remaining time continues to run.
+1. Skipping grasping is allowed (0 points for the corresponding item, no penalty).
+1. Skipping obstacle avoidance is allowed (0 points for the corresponding item, no penalty).
+1. The `start position` is defined as the area within a **1 m radius** from the mark placed at the start location.
+1. `Re-entry into the arena` is considered valid once the entire robot has entered the arena.
+1. The bags will always be placed sideways; they will not be placed upright.
+1. If a team wishes to use an alternative signaling method as Deus ex Machina, it must be declared at the **TLM on the previous day**.
+1. Safety has the highest priority. Dangerous behavior will result in immediate stoppage and a major penalty.
 
-### Main Goals
-| Action                                  | Score |
-| Picking up the correct bag (skip rule)  |   200 |
-| Following a person to the car           |   300 |
-| Bonus Points               |  |
-| Avoiding small objects on the ground (skip rule) | 50 |
-| Avoiding hard-to-see objects (skip rule)|   50 |
-| Avoiding areas blocked by retractable barriers (skip rule) | 50 |
-| Re-entering the arena       |   100 |
-| Standard Penalties             |  |
-| Dropping the bag   |   -50 |
-| Deus Ex Machina Penalties      |  |
-| Rediscovering the operator through natural interaction |  50 |
-| Rediscovering the operator through unnatural interaction | 100 |
-| Rediscovering the operator through direct contact | 200 |
-| Special Penalties & Bonuses   |  |
-| Non-participation             |  -500 |
-| Using an alternative start signal |  100 |
+## Score Sheet
 
-Total Score: **750 points**
+### Scoring Policy
 
-## Executive Committee (EC) Instructions
-- Preparation:
-  - Select two people from the competing teams to obstruct the robot's path outdoors.
-  - Choose the position of the paper bags and assign them to the operator.
+Base score: 80%  
+Bonus score: 20%  
+Total reference score: **1000 points**
+
+Recommended score distribution: recognition 10%, following 65%, grasping 25%
+
+### Main Goal (800 points)
+
+| No | Action | Score |
+|---:|---|---:|
+| 1 | Correctly detect and face the operator | 30 |
+| 2 | Correctly recognize the target bag (left/right) and provide confirmation | 40 |
+| 3 | Reach the designated bag position and stop nearby | 30 |
+| 4 | Fully grasp the bag (both handles) *(skippable)* | 150 |
+| 5 | Partially grasp the bag (e.g. one handle) *(skippable)* | 100 |
+| 6 | Maintain following of the operator indoors (known environment) | 100 |
+| 7 | Maintain following of the operator outdoors (unknown environment) | 150 |
+| 8 | Successfully hand the luggage to the operator | 50 |
+| 9 | Autonomously re-enter the arena | 80 |
+| 10 | Autonomously return to the start position (within 1 m radius) | 70 |
+
+### Bonus (maximum 200 points)
+
+| No | Action | Score |
+|---:|---|---:|
+| B1 | Obstacle avoidance: avoid a hard-to-see object (chair) *(skippable)* | 50 |
+| B2 | Obstacle avoidance: avoid a small item *(skippable)* | 50 |
+| B3 | Obstacle avoidance: avoid a barrier *(skippable)* | 100 |
+
+### Penalties
+
+| Action | Deduction |
+|---|---:|
+| Lose sight of the operator for more than 5 seconds (robot re-detects automatically) | -50 |
+| Re-detect the operator through interaction without physical contact | -100 |
+| Re-detect the operator through direct physical contact | -200 |
+| Strongly request the operator to stop or wait | -50 |
+| Drop the bag during the task | -50 |
+| Ask for the bag to be moved away | -100 |
+| Contact with a person or object | -100 |
+| Direct human assistance (e.g. guiding by hand) | -200 |
+| No participation | -500 |
+
+### Deus ex Machina
+
+| Action | Deduction |
+|---|---:|
+| Use of an alternative signaling method (must be declared in advance at the TLM) | -100 |
+
+### Restart Rule
+
+- One restart is allowed, and the remaining time continues to run.
+- A second or subsequent restart is not allowed.
+
+## Instructions by the Organizing Committee (OC)
+
+- Preparation
+  - Select the robot’s `start position`.
+  - Select the paper bag positions and assign the competition bag to the operator.
   - Select the obstacles the robot will face outdoors.
-  - Choose the position of the goal (car).
-  - Be cautious when the robot exits the arena.
-- Announcements (Setup day):
-  - Select and announce the robot's starting point.
-  - Choose and announce which bag will be used.
+  - Select the goal position (designated car location).
+- Announcements (TLM)
+  - Announce the robot’s `start position`.
+  - Announce which bag will be used.
+  - Announce the types of obstacles to be used.
+  - Coordinate the size and material of the paper bags with each team.
 
-## Referee (TC) Movement
-- Gather one person from each team that has completed the competition to receive explanations and score sheets.
-- Act as the referee as described in the scenario.
-- Score the competition based on the score sheets.
-- Coordinate with other TCs to confirm scoring.
-- Submit the score sheets.
+## Referee (TC) Responsibilities
+
+- Gather **30 minutes before** the competition starts, receive instructions, and collect the score sheet.
+- Score the run according to the score sheet.
+- Cross-check the scoring with other TCs.
+- Submit the score sheet to the OC.
+
+## Items to Confirm at the TLM
+
+- Ask each team for their preferred paper bag size, material, color, and texture.
+- Share the types and placement locations of the obstacles.
+- Share the layout details.
+- Accept declarations of alternative signaling methods.
