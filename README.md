@@ -3,8 +3,7 @@
 ## 大会開催情報
 
 * 大会ウェブページ / Official page: https://www.robocup.or.jp/JapanOpen2026/
-* ＠ホームリーグウェブページ / @Home league page: TBD
-<!-- * ＠ホームリーグウェブページ / @Home league page: https://sites.google.com/site/robocuphomejapan/japanopen2026 -->
+* ＠ホームリーグウェブページ / @Home league page: https://sites.google.com/site/robocuphomejapan/japanopen2026
 * 競技期間 / Dates: 2026-04-24 - 2026-04-27
 * 会場 / Location: 滋賀ダイハツアリーナ / Shiga Daihatsu Arena, Japan
 
@@ -14,54 +13,35 @@
 主に参加者への連絡やチーム内コミュニケーション，チーム同士の連絡に使用されます．＠ホームリーグへの参加を検討しているチームやメンバーの皆様は，ぜひDiscordへ参加してください．<br>
 Discord is the official communication platform for @Home League. There, information towards the participants or communication among teams will be conducted. Any future participant teams and/or members who are planning to join us in this competition are welcome to join the Discord server.
 
-[Discord参加リンク/ Join our Discord server](https://discord.gg/8gJYJqUVZA)
-
-## Tasks
+[Discord参加リンク / Join our Discord server](https://discord.gg/8gJYJqUVZA)
 
 ### OPL
 
-> [!IMPORTANT]
-> 実施タスクやそのルールはまだ公開されていません．少々お待ちください． / The task and rules are not published yet. Please, wait.
+Rules are based on [2026 RoboCup@Home Rulesbook](https://robocupathome.github.io/RuleBook/rulebook/master.pdf).
+ルールは [2026 全世界共通ルールブック](https://robocupathome.github.io/RuleBook/rulebook/master.pdf) を基に実施されます．
 
-<!-- ルールはRoboCup2024 World Championship @HomeのRulesbookを基に実施されます．
-Rules are based on RoboCup2024 World Championship @Home.
+- **[General Rules / 一般的なルールと規定](./rules/OPL/gr.md)**
+- **Tasks / 実施タスク:**
+    - [Robot Inspection](./rules/OPL/ri.md)
+    - [Human Robot Interaction Challenge](./rules/OPL/hri.md)
+    - [Pick and Place Challenge](./rules/OPL/pp.md)
+    - [General Purpose Service Robot (GPSR) Challenge](./rules/OPL/gpsr.md)
+    - [Doing Laundry Challenge](./rules/OPL/dl.md)
+    - [Restaurant Challenge](./rules/OPL/rc.md)
+    - [Open Challenge](./rules/OPL/oc.md)
+    - [Poster Session](./rules/OPL/ps.md)
+    - Kachaka Challenge (Extended Tidy Up) [EN](./rules/OPL/tu_en.md) / [JA](./rules/OPL/tu_ja.md)
 
-* Carry My Luggage (Education League): [EN](rules/EDU/cml_en.md) / [JA](rules/EDU/cml_ja.md)
-* ~~Receptionist~~
-* GPSR: [EN](rules/OPL/gpsr_en.md) / [JA](rules/OPL/gpsr_ja.md)
-* Open Challenge: [EN](rules/OPL/oc_en.md) / [JA](rules/OPL/oc_ja.md)
-* Kachaka Challenge (Extended Tidy Up)[EN](rules/OPL/tu_en.md) / [JA](rules/OPL/tu_ja.md)
-* Poster: [EN](rules/OPL/ps_en.md) / [JA](rules/OPL/ps_ja.md) -->
+#### Released Lists / 公開リスト
 
+TBD
 
-<!-- #### Released Lists
-
-* [Environment List](rules/OPL/sd/layout_list.md)
-* [Object List](rules/OPL/sd/object_list.md)
-* [GPSR - Predefined Location ](rules/OPL/sd/pd_loc_list.md)
-* [GPSR - Name List](rules/OPL/sd/name_list.md)
-* [GPSR - Question List](rules/OPL/sd/question_list.md)
-* [GPSR - Features List](rules/OPL/sd/features_list.md) -->
-
-#### Overall Rules
-
-#### Tasks
-
-#### Results
-
-<!-- * [Main Competition](rules/OPL/score/score_main_competition.pdf)
-  1. 
-  2. 
-  3. 
-* [Open Challenge](rules/OPL/score/score_open_challenge.pdf)
-  1. 
-  2. 
-  3. 
-* [Poster Session](rules/OPL/score/score_poster_session.pdf)
-  1. 
-* [Kachaka Challenge]()
-  1. 
-  2.  -->
+<!-- * [Environment List](rules/OPL/sd/layout_list.md) -->
+<!-- * [Object List](rules/OPL/sd/object_list.md) -->
+<!-- * [GPSR - Predefined Location ](rules/OPL/sd/pd_loc_list.md) -->
+<!-- * [GPSR - Name List](rules/OPL/sd/name_list.md) -->
+<!-- * [GPSR - Question List](rules/OPL/sd/question_list.md) -->
+<!-- * [GPSR - Features List](rules/OPL/sd/features_list.md) -->
 
 
 ### DSPL
