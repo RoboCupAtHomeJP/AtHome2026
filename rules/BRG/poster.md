@@ -16,4 +16,4 @@ All teams are required to prepare and present a team poster introducing their te
 - Awards: Japan Open 2026 will award prizes to the top teams only in the Poster Session, not in the Finals.
 - **Note: Please use the curing tape prepared by the management when you put your poster on the wall. Please do not stain the wall.**
 
-![Poster location](https://github.com/RoboCupAtHomeJP/AtHome2024/assets/6745835/c5d90922-430c-4e86-9c38-45ee6a628ddf)
+![Poster location](https://github.com/RoboCupAtHomeJP/AtHome2026/blob/main/rules/BRG/poster_layout2026.png)
