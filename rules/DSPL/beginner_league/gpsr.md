@@ -1,4 +1,6 @@
-# General Purpose Service Robot (GPSR) for DSPL
+**現在ルール策定中ですので，今後変更となる可能性があります．**
+
+# General Purpose Service Robot (GPSR) for Beginner League
 - 参考動画：https://youtu.be/Hmcg-QO8Nso
 - ※ 参考動画は完璧ではない．年によってルールが異なるため，参考程度にすること．
 
