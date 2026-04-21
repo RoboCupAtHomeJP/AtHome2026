@@ -118,7 +118,7 @@ Rules are based on RoboCup2024 World Championship @Home.
 - [@Home 2022 Rules](https://drive.google.com/file/d/1yUZBFk4zBO_akltSCd_zbdAvzK5aLwzn/view?usp=drive_link). -->
 
 #### Tasks
-- [Poster Session](rules/BRG/poster_ja.md) 
+- [Poster Session](rules/BRG/poster_jp.md) 
 <!-- [Carry My Luggage](rules/BRG/cml_ja.md)  -->
 <!-- [Receptionist](rules/BRG/rc_jp.md) -->
 - [Open Challenge](rules/BRG/open_challenge_jp.md) 
