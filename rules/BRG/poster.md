@@ -1,4 +1,4 @@
-# Poster Session Guidelines (WIP)
+# Poster Session Guidelines 
 
 All teams are required to prepare and present a team poster introducing their team's technical development.
 
