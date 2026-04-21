@@ -109,11 +109,12 @@ Rules are based on RoboCup2024 World Championship @Home.
 
 ### BRG (Bridge Competition)
 
+<!--
 > [!IMPORTANT]
-> 実施タスクやそのルールはまだ公開されていません．少々お待ちください． / The task and rules are not published yet. Please, wait.
+> 実施タスクやそのルールはまだ公開されていません．少々お待ちください． / The task and rules are not published yet. Please, wait. -->
 
-#### Overall Rules
-<!-- Rules are based on RoboCup2024 World Championship @Home Playground rules as follows,　
+<!-- #### Overall Rules
+Rules are based on RoboCup2024 World Championship @Home Playground rules as follows,　
 - [Playground Rules 2024](https://drive.google.com/file/d/1CIMQquIntiJZNT4Eg_rq3Nol-29BPBKL/view?usp=drive_link)
 - [@Home 2022 Rules](https://drive.google.com/file/d/1yUZBFk4zBO_akltSCd_zbdAvzK5aLwzn/view?usp=drive_link). -->
 
