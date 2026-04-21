@@ -119,10 +119,10 @@ Rules are based on RoboCup2024 World Championship @Home Playground rules as foll
 - [@Home 2022 Rules](https://drive.google.com/file/d/1yUZBFk4zBO_akltSCd_zbdAvzK5aLwzn/view?usp=drive_link). -->
 
 #### Tasks
-- [Poster Session](rules/BRG/poster_jp.md)  ([English](rules/BRG/poster.md) )
+- [ポスターセッション](rules/BRG/poster_jp.md)  ([Poster Session](rules/BRG/poster.md) )
 <!-- [Carry My Luggage](rules/BRG/cml_ja.md)  -->
 <!-- [Receptionist](rules/BRG/rc_jp.md) -->
-- [Open Challenge](rules/BRG/open_challenge_jp.md)  ([English](rules/BRG/open_challenge.md)) 
+- [オープンチャレンジ](rules/BRG/open_challenge_jp.md)  ([Open Challenge](rules/BRG/open_challenge.md)) 
 
 #### Results
 <!-- - [Results](rules/EDU/results.md) -->
