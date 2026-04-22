@@ -24,13 +24,12 @@ Rules are based on [2026 RoboCup@Home Rulesbook](https://robocupathome.github.io
 - **Tasks / 実施タスク:**
     - [Robot Inspection](./rules/OPL/ri.md)
     - [Human Robot Interaction Challenge](./rules/OPL/hri.md)
-    - [Pick and Place Challenge](./rules/OPL/pp.md)
+    - [Pick and Place Challenge (feat. Kachaka Challenge)](./rules/OPL/pp.md)
     - [General Purpose Service Robot (GPSR) Challenge](./rules/OPL/gpsr.md)
     - [Doing Laundry Challenge](./rules/OPL/dl.md)
     - [Restaurant Challenge](./rules/OPL/rc.md)
     - [Open Challenge](./rules/OPL/oc.md)
     - [Poster Session](./rules/OPL/ps.md)
-    - Kachaka Challenge (Extended Tidy Up) [EN](./rules/OPL/tu_en.md) / [JA](./rules/OPL/tu_ja.md)
 
 #### Released Lists / 公開リスト
 
