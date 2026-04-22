@@ -17,8 +17,8 @@ Discord is the official communication platform for @Home League. There, informat
 
 ### OPL
 
-Rules are based on [2026 RoboCup@Home Rulesbook](https://robocupathome.github.io/RuleBook/rulebook/master.pdf).<br>
-ルールは [2026 全世界共通ルールブック](https://robocupathome.github.io/RuleBook/rulebook/master.pdf) を基に実施されます．
+Rules are based on [2026 RoboCup@Home Rulesbook](./rules/DSPL/RoboCup@Home_Rules_&_Regulations_v2026_rev-1.pdf).<br>
+ルールは [2026 全世界共通ルールブック](./rules/DSPL/RoboCup@Home_Rules_&_Regulations_v2026_rev-1.pdf) を基に実施されます．
 
 - **[General Rules / 一般的なルールと規定](./rules/OPL/gr.md)**
 - **Tasks / 実施タスク:**
