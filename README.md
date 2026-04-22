@@ -34,10 +34,8 @@ Rules are based on [2026 RoboCup@Home Rulesbook](https://robocupathome.github.io
 
 #### Released Lists / 公開リスト
 
-TBD
-
 <!-- * [Environment List](rules/OPL/sd/layout_list.md) -->
-<!-- * [Object List](rules/OPL/sd/object_list.md) -->
+* [Object List](rules/DSPL/dspl_2026_object_list.pdf)
 <!-- * [GPSR - Predefined Location ](rules/OPL/sd/pd_loc_list.md) -->
 <!-- * [GPSR - Name List](rules/OPL/sd/name_list.md) -->
 <!-- * [GPSR - Question List](rules/OPL/sd/question_list.md) -->
