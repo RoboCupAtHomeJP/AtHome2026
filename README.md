@@ -43,17 +43,25 @@ Rules are based on [2026 RoboCup@Home Rulesbook](./rules/DSPL/RoboCup@Home_Rules
 
 ### DSPL
 
-> [!IMPORTANT]
-> 実施タスクやそのルールはまだ公開されていません．少々お待ちください． / The task and rules are not published yet. Please, wait.
+Rules are based on [2026 RoboCup@Home Rulesbook](./rules/DSPL/RoboCup@Home_Rules_&_Regulations_v2026_rev-1.pdf).<br>
+ルールは [2026 全世界共通ルールブック](./rules/DSPL/RoboCup@Home_Rules_&_Regulations_v2026_rev-1.pdf) を基に実施されます．
 
-<!-- Rules are based on RoboCup 2025.
-(DSPL競技に関する[QA](https://github.com/RoboCupAtHomeJP/AtHome2025/blob/main/rules/DSPL/qa_dspl_competition.md))
-
+<!--
 - [Schedule](rules/DSPL/README.md)
 - [Locations](rules/DSPL/robocup_japan_open_2025_map.pdf)
 - [Arena reservation sheet](https://1drv.ms/x/c/a27484ad5dac677b/EbpkB4Yd4xRKmmHzQOWYH2QBXDS15JXTIg1cTUiIgWS-xQ?e=HpdYxX) -->
 
+- **[General Rules / 一般的なルールと規定](./rules/DSPL/general_rules.md)**
+#### Common Tasks / 共通タスク
+- [Robot Inspection](./rules/DSPL/ri.md)
+- [Open Challenge](./rules/DSPL/oc.md)
+
 #### Beginner's (B) Category
+
+- **Tasks / 実施タスク:**
+    - [Pick and Place Challenge](./rules/DSPL/beginner_league/pp.md)
+    - [General Purpose Service Robot Challenge](./rules/DSPL/beginner_league/gpsr.md)
+    - [Restaurant Challenge](./rules/DSPL/beginner_league/rc.md)
 
 <!-- ルールや採点方法に変更が加えられる予定です． / Rules and scoring criteria will be modified.
 
@@ -63,26 +71,22 @@ Rules are based on [2026 RoboCup@Home Rulesbook](./rules/DSPL/RoboCup@Home_Rules
 
 #### Advanced (A) Category
 
-<!-- * Storing Groceries
-* [Restaurant](https://github.com/RoboCupAtHomeJP/AtHome2025/blob/main/rules/DSPL/restaurant.md)
-* [EGPSR](https://github.com/RoboCupAtHomeJP/AtHome2025/blob/main/rules/DSPL/egpsr.md)
-* [Receptionist](https://github.com/RoboCupAtHomeJP/AtHome2025/blob/main/rules/DSPL/receptionist.md)
-* [Clean the Table](rules/DSPL/clean_the_table.md)
-* [Help Me Carry](https://github.com/RoboCupAtHomeJP/AtHome2025/blob/main/rules/DSPL/hmc.md) -->
+- **Tasks / 実施タスク:**
+    - [Human Robot Interaction Challenge](./rules/DSPL/advanced_league/hri.md)
+    - [Pick and Place Challenge](./rules/DSPL/advanced_league/pp.md)
+    - [Doing Laundry Challenge](./rules/DSPL/advanced_league/dl.md)
+    - [Restaurant Challenge](./rules/DSPL/advanced_league/rc.md)
+    - [Enhanced General Purpose Service Robot (EGPSR) Challenge](./rules/DSPL/advanced_league/gpsr.md)
 
-<!-- #### Object List
-* [Object List](rules/DSPL/dspl_2025_object_list.pdf)
+#### Released Lists / 公開リスト
 
-#### Name List
-* [Name List](rules/DSPL/name_list.md)
-
-#### Question List
-* [Question List](rules/DSPL/question_list.md)
-
-#### Posture List
-* [Posture List](rules/DSPL/posture_list.md) -->
+<!-- * [Environment List](rules/DSPL/sd/layout_list.md) -->
+* [Object List](rules/DSPL/dspl_2026_object_list.pdf)
+<!-- * [Predefined Location](rules/DSPL/sd/pd_loc_list.md) -->
+<!-- * [Name List](rules/DSPL/sd/name_list.md) -->
 
 
+DSPL競技に関する[QA](https://github.com/RoboCupAtHomeJP/AtHome2026/blob/main/rules/DSPL/qa_dspl_competition.md)
 
 ### BRG (Bridge Competition)
 
