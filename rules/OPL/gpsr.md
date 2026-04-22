@@ -10,6 +10,7 @@ This challenge follows **Section 5.3 (General Purpose Service Robot - GPSR)** of
 ---
 
 ## Local Variations / ローカル解説事項
+This is a Japanese translation based on the rulebook used in the World Championships.<br>
 
 GPSR
 # 【重点】
