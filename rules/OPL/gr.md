@@ -28,6 +28,10 @@ The object set shall conform to the list provided below:<br>
 
 - **[Object　List](./../DSPL/dspl_2026_object_list.pdf)**
 
+> [!NOTE]  
+> The objects in "Catefory A" will be used for OPL.<br>
+「OPL」として「Category A」に記載されている物体をすべて使用します．
+
 > [!IMPORTANT]
 > For objects other than YCB Objects, identical items may not be available due to procurement constraints. In such cases, alternative items with similar functionality and appearance may be used.<br>
 YCB Objects以外の物体については，入手状況により同一のものを用意できない場合があります．その際には，機能および外観が類似した代替品を使用する可能性がありますので，あらかじめご了承ください．
