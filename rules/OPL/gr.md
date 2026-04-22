@@ -23,11 +23,14 @@ Registration is handled through the [Official JapanOpen Page](https://www.robocu
 
 ### 1. Object Sets / オブジェクトセット
 
-Teams can choose between two object sets for each task:<br>
-チームは試技ごとに以下のいずれかのオブジェクトセットを選択できます：
+The object set shall conform to the list provided below:<br>
+オブジェクトセットは，以下のリストに準じます:
 
-- **YCB Objects**: From the [YCB Dataset](http://www.ycbbenchmarks.com/object-set/).
-- **Standard Object List**: JapanOpen Standard Object List (TBD).
+- **[Object　List](./../DSPL/dspl_2026_object_list.pdf)**
+
+> [!IMPORTANT]
+> For objects other than YCB Objects, identical items may not be available due to procurement constraints. In such cases, alternative items with similar functionality and appearance may be used.<br>
+YCB Objects以外の物体については，入手状況により同一のものを用意できない場合があります．その際には，機能および外観が類似した代替品を使用する可能性がありますので，あらかじめご了承ください．
 
 ### 2. HSR Participation Policy / HSRによる参加規定
 
