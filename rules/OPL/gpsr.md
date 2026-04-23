@@ -52,6 +52,15 @@ GPSR
 
 # 【スコアシート】
 音声コマンドを理解する 3×80<br>
+ (Level A)
+Understand the spoken command   3x80
+   Using a custom operator     3x-20
+   Request a rephrasing        6x-30
+
+(Level B)
+Understand the spoken command  3x20
+   Using a custom operator     3x-5
+　　(なし)
 計画が生成されたことを示す 3×100<br>
 最初のコマンドを解決する 250<br>
 2番目のコマンドを解決する 250<br>
