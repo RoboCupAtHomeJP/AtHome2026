@@ -104,7 +104,7 @@ Rules are based on RoboCup2024 World Championship @Home Playground rules as foll
 <!-- [Carry My Luggage](rules/BRG/cml_ja.md)  -->
 <!-- [Receptionist](rules/BRG/rc_jp.md) -->
 - [オープンチャレンジ](rules/BRG/open_challenge_jp.md)  ([Open Challenge](rules/BRG/open_challenge.md)) 
-- [Receptionist](rules/EDU/rc_jp.md)
+- [Receptionist](rules/BRG/rc_jp.md)
 
 #### Results
 <!-- - [Results](rules/EDU/results.md) -->
