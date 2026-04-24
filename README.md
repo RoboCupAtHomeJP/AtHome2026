@@ -54,6 +54,7 @@ Rules are based on [2026 RoboCup@Home Rulesbook](./rules/DSPL/RoboCup@Home_Rules
 - [Arena reservation sheet](https://1drv.ms/x/c/a27484ad5dac677b/EbpkB4Yd4xRKmmHzQOWYH2QBXDS15JXTIg1cTUiIgWS-xQ?e=HpdYxX) -->
 
 - **[General Rules / 一般的なルールと規定](./rules/DSPL/general_rules.md)**
+- [Orders & Scores / 競技順とスコア](./rules/DSPL/README.md)
 #### Common Tasks / 共通タスク
 - [Robot Inspection](./rules/DSPL/ri.md)
 - [Open Challenge](./rules/DSPL/oc.md)
