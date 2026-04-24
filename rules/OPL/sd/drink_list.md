@@ -1,1 +1,11 @@
-　Lemonade,coffee Can,Fanta,Yakult,Green Tea,milk,Red Bull can
+## Drink List
+
+| Drinks | 
+| --- |
+| Lemonade |
+| Coffee Can |
+| Fanta |
+| Yakult |
+| Green Tea |
+| milk |
+| Red Bull Can |
