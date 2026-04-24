@@ -26,8 +26,8 @@ System integration, human-robot interaction, human detection, human recognition
   - Setup time: 5 minutes
   - Competition time: 7 minutes
 - Host
-  - Name is --- (revealed on setup day).
-  - The host's initial position is the ● mark in the figure above (revealed on setup day).
+  - Name is Chris.
+  - The host's initial position is the ● mark in the figure above.
 - Guests
   - Each of the two guests is assigned a name and a favorite drink.
   - Guests are guided into the room following the robot's instructions.
