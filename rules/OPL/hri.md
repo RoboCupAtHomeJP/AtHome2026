@@ -78,7 +78,7 @@ Since we were unable to provide doors for RCJ2026, we will not be performing tas
 ### ・名前
 　Sophie,Kevin,Julia,Gabrielle,Emma,Robin,Noah,Sara,John,Harrie,Laura,Liam,Peter,Lucas,Susan,William
 ### ・飲み物
-　Espresso,pepsi,milk,tea,coffee,orange juice,strawberry juice,lemon juice,apple juice
+　Lemonade,coffee Can,Fanta,Yakult,Green Tea,milk,Red Bull can<br>
 
 ## 【減点要素】
 ### ・代替手段の使用
