@@ -80,9 +80,9 @@ Rules are based on [2026 RoboCup@Home Rulesbook](./rules/DSPL/RoboCup@Home_Rules
 
 #### Released Lists / 公開リスト
 
-<!-- * [Environment List](rules/DSPL/sd/layout_list.md) -->
+* [Environment List](rules/DSPL/sd)
 * [Object List](rules/DSPL/dspl_2026_object_list.pdf)
-<!-- * [Predefined Location](rules/DSPL/sd/pd_loc_list.md) -->
+* [Predefined Location](rules/DSPL/sd/arena_gpsr.pdf)
 <!-- * [Name List](rules/DSPL/sd/name_list.md) -->
 
 
