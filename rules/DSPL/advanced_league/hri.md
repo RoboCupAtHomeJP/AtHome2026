@@ -11,6 +11,6 @@ This challenge follows **Section 5.1 (Human Robot Interaction Challenge)** of th
 
 ## Local Variations / ローカル解説事項
 
-TBD
+- [Predefined Person Name](../name_list.md)
 
 ---

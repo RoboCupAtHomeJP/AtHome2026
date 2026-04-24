@@ -84,6 +84,7 @@ Rules are based on [2026 RoboCup@Home Rulesbook](./rules/DSPL/RoboCup@Home_Rules
 * [Environment List](rules/DSPL/sd)
 * [Object List](rules/DSPL/dspl_2026_object_list.pdf)
 * [Predefined Location](rules/DSPL/sd/arena_gpsr.pdf)
+* [Predefined Person Name](rules/DSPL/sd/name_list.md)
 <!-- * [Name List](rules/DSPL/sd/name_list.md) -->
 
 
