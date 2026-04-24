@@ -33,9 +33,10 @@ Rules are based on [2026 RoboCup@Home Rulesbook](./rules/DSPL/RoboCup@Home_Rules
 
 #### Released Lists / 公開リスト
 
-<!-- * [Environment List](rules/OPL/sd/layout_list.md) -->
+
+* [Environment List](rules/DSPL/sd/) 
 * [Object List](rules/DSPL/dspl_2026_object_list.pdf)
-<!-- * [GPSR - Predefined Location ](rules/OPL/sd/pd_loc_list.md) -->
+* [GPSR - Predefined Location ](rules/DSPL/sd/arena_gpsr.pdf)
 <!-- * [GPSR - Name List](rules/OPL/sd/name_list.md) -->
 <!-- * [GPSR - Question List](rules/OPL/sd/question_list.md) -->
 <!-- * [GPSR - Features List](rules/OPL/sd/features_list.md) -->
