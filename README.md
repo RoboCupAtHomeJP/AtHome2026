@@ -116,13 +116,10 @@ Rules are based on RoboCup2024 World Championship @Home Playground rules as foll
 
 ### S-OPL
 
-> [!IMPORTANT]
-> 実施タスクやそのルールはまだ公開されていません．少々お待ちください． / The task and rules are not published yet. Please, wait.
-
-<!-- * [General Rules](rules/S-OPL/gr_ja.md)
+* [General Rules](rules/S-OPL/gr_ja.md)
 * [Handyman](rules/S-OPL/hm_ja.md)
 * [Interactive Cleanup](rules/S-OPL/ic_ja.md)
 * [Human Navigation](rules/S-OPL/hn_ja.md)
-* [Open Challenge](rules/S-OPL/tc_ja.md) -->
+* [Open Challenge](rules/S-OPL/tc_ja.md)
 
 <!-- ![](./RCJ25_0311.jpg) -->
