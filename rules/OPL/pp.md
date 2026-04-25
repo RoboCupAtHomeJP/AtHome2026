@@ -12,7 +12,7 @@ This challenge follows **Section 5.2 (Pick and Place Challenge)** of the [2026 R
 ## Local Variations / ローカル解説事項
 
 Please find the word doc below for the Kachaka challenge special rules.
-https://discordapp.com/channels/1179433075604729976/1487731121830629497/1489903650414526517
+https://1drv.ms/w/c/a27484ad5dac677b/IQDjInG3A1FrQbpljbzuijinAcmjgaaOYBKKg3BJhtLYWWc?e=ea1TIR
 
 ---
 
