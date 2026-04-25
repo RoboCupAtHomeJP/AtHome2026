@@ -6,6 +6,7 @@
 * ＠ホームリーグウェブページ / @Home league page: https://sites.google.com/site/robocuphomejapan/japanopen2026
 * 競技期間 / Dates: 2026-04-24 - 2026-04-27
 * 会場 / Location: 滋賀ダイハツアリーナ / Shiga Daihatsu Arena, Japan
+* [YouTubeライブストリーミング](https://www.youtube.com/@RCJ_atHome)
 
 ## Discord
 
