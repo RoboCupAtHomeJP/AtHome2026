@@ -1,13 +1,14 @@
 ## Names
-| Names      |
-|------------|
+
+| Names    |
+| -------- |
 | Yoshimura |
-| Angel |
-| Basil |
-| Chikako |
-| Andrew |
-| Sophia |
-| Jack |
-| Mike |
-| Leo |
-| Tom |
+| Angel    |
+| Basil    |
+| Chikako  |
+| Andrew   |
+| Sophia   |
+| Jack     |
+| Mike     |
+| Leo      |
+| Tom      |

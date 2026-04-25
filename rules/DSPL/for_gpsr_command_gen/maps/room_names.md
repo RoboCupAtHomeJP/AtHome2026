@@ -1,8 +1,8 @@
 ## Rooms
-| Name  | 
-| ------------ |  
-| laundry room | 
-| bedroom | 
-| kitchen | 
-| living room | 
 
+| Name         |
+| ------------ |
+| laundry room |
+| bedroom      |
+| kitchen      |
+| living room  |
