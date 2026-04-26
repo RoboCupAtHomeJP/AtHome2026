@@ -39,8 +39,13 @@
 4. **Team SOBITS**（AHDSP-07） 創価大学
 5. **Re@dy**（AHDSP-02） 北九州高専
 
-### EGPSR Challenge
-- TBD
+### Final Challenge
+1. **TIDBots+KTU（AHDSP-09）** 東京情報デザイン専門職大学，京都橘大学
+2. **Hibikino-Musashi@Home**（AHDSP-01） 九州工業大学 / 北九州市立大学
+3. **Team SOBITS**（AHDSP-07） 創価大学
+4. **TRAIL**（AHDSP-03） 東京大学松尾・岩澤研究室
+5. **Re@dy**（AHDSP-02） 北九州高専
+
 
 ## 競技順 (B)
 ### Pick and Place Challenge
@@ -60,6 +65,15 @@
 2. **iPutok**（AHDSP-06） 大阪国際工科専門職大学
 3. **Happy Robot DSPL**（AHDSP-04） 金沢工業大学 出村研究室
 4. **OIT-R**（AHDSP-05） 大阪工業大学
+
+## Open Challenge発表順
+1. **Hibikino-Musashi@Home**（AHDSP-01） 九州工業大学 / 北九州市立大学
+2. **Re@dy**（AHDSP-02） 北九州高専
+3. **TIDBots+KTU（AHDSP-09）** 東京情報デザイン専門職大学，京都橘大学
+4. **iPutok**（AHDSP-06） 大阪国際工科専門職大学
+5. **OIT-R**（AHDSP-05） 大阪工業大学
+6. **Team SOBITS**（AHDSP-07） 創価大学
+
 
 ## Score
 ### Advanced
