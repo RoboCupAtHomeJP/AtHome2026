@@ -2,7 +2,7 @@
 
 | Number | Name                | Object Category |
 |--------|---------------------|-----------------|
-| 1      | bed                 |                 |
+| 1      | bed (p)                |                 | 
 | 2      | bookcase (p)        | fruit           |
 | 3      | coat rack           |                 |
 | 4      | side table (p)      | snack           |
@@ -20,12 +20,11 @@
 (p) indicates whether objects can be placed at the location
 
 for:
-- dishwasher
 - microwave
-- washing machine
 - coffee table
 - chair
 - couch
 - dining table
 - bed
+- table
 the placement location is on top of the object.

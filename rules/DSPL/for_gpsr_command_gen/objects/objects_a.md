@@ -3,7 +3,7 @@
 | Objectname   | Image                                              |
 |:------------:|:--------------------------------------------------:|
 | lemonade     | ![](known_objects/drinks!drink/water.jpg)          |
-| cofee_can    | ![](known_objects/drinks!drink/red_bull.jpg)       |
+| coffee_can    | ![](known_objects/drinks!drink/red_bull.jpg)       |
 | fanta        | ![](known_objects/drinks!drink/milk.jpg)           |
 | yakult       | ![](known_objects/drinks!drink/orange_juice.jpg)   |
 | green_tea    | ![](known_objects/drinks!drink/coke.jpg)           |
